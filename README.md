@@ -29,7 +29,7 @@ Data Control Language
   
    使用此命令可在交易功能中定義儲存點。
    
-6. 
+6. Select < column From table_name Where expression > For Update
 
 7. Lock Tables <table_name> <mode>
 
