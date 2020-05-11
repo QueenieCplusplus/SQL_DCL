@@ -62,7 +62,11 @@ Data Control Language
    
 6. Select < column From table_name Where expression > For Update
 
+   列鎖定
+
 7. Lock Tables <table_name> <mode>
+  
+   資料表鎖定
 
    鎖定資料表。此鎖具有排他性，無法從別的 session 來進行所定（即此新的鎖定也會被封鎖）。
    這適用於交易功能彼此產生衝突，後進行的交易功能會被阻擋住，暫時無法執行！這是因為先執行的命令，
