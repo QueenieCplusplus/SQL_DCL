@@ -17,6 +17,8 @@ Data Control Language
   
    Transaction 可設定為 Session 亦或是 Global。
    
+   關於 session http://einverne.github.io/post/2017/05/sqlalchemy-session.html
+   
    參數則可設定為只讀取，即 select，其他操作則錯誤。
    
    level 參數包含四種隔離等級：
