@@ -45,6 +45,8 @@ Data Control Language
 3. Commit [work]
 
    很多用來執行 SQL 的用戶端工具，都具備自動 Commit 模式，在此模式中，執行 SQL 指令會自動執行 Commit。倘若要自己控制的話，就要關閉此預設模式，而且即使在自動 Commit 模式下，也可使用 Begin 來啟動交易功能。
+   
+   其他類似用戶端工具的仲介軟體也具備自動 Commit 功能，可藉由仲介軟體稱為 Connection 的物件，呼叫其方法（通常命名方式與 SQL 指令相同）， 便可讓交易功能執行 SQL 指令。
 
 4. Rollback [work] To [savepoint] <savepoint>
   
