@@ -66,7 +66,7 @@ Data Control Language
 
    列鎖定
 
-7. Lock Tables <table_name> <mode>
+7. Lock Tables < table_name > < mode >
   
    資料表鎖定
 
