@@ -31,7 +31,7 @@ Data Control Language
    
 6. 
 
-7. Lock Tables
+7. Lock Tables <table_name> <mode>
 
    鎖定資料表。此鎖具有排他性，無法從別的 session 來進行所定（即此新的鎖定也會被封鎖）。
 
