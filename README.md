@@ -1,2 +1,2 @@
-# SQL_DCL
+# SQL DCL
 Data Control Language
