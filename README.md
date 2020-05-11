@@ -28,5 +28,15 @@ Data Control Language
 5. Savepoint <savepoint> on rollback retain cursors
   
    使用此命令可在交易功能中定義儲存點。
+   
+6. 
+
+7. Lock Tables
+
+   鎖定資料表。
+
+8. Unlock Tables
+
+   解除資料表的鎖定狀態。
   
 
