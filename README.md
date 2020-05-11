@@ -28,7 +28,7 @@ Data Control Language
    
    - CS, Read Committed == Cursor Stabilty (游標穩定性) 
    
-     讀取僅參照到變更的資料。
+     讀取僅參照到變更的資料。（這是大多數資料庫所採用的隔離等級！）
    
    - RS, Repeatable Read == Read Stability (讀取穩定性)
    
