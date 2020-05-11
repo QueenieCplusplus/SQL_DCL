@@ -33,7 +33,7 @@ Data Control Language
 
 7. Lock Tables
 
-   鎖定資料表。
+   鎖定資料表。此鎖具有排他性，無法從別的 session 來進行所定（即此新的鎖定也會被封鎖）。
 
 8. Unlock Tables
 
