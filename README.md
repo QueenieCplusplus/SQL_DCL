@@ -42,6 +42,10 @@ Data Control Language
   
 2. Begin [work]
 
+   使用交易功能，能將多個 insert 或是 update 統合在一起，並且用 Begin 開啟交易。（某些除外，例如 Oracle 和 DB2 一直都是啟動狀態，所以沒有 begin 功能的命令）
+   
+   在交易開始時，update 和 insert 只有保留狀態，直到 Commit 命令執行，才能讓 SQL 命令有效，結束交易功能，而使用 RollBack 則使整筆交易無效。倘若一整串命令中，造成資料遺失或重複，則可使用 RollBack 回滾功能的資料控制命令！
+
 3. Commit [work]
 
    很多用來執行 SQL 的用戶端工具，都具備自動 Commit 模式，在此模式中，執行 SQL 指令會自動執行 Commit。倘若要自己控制的話，就要關閉此預設模式，而且即使在自動 Commit 模式下，也可使用 Begin 來啟動交易功能。
