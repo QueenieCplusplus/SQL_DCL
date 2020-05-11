@@ -15,7 +15,7 @@ Data Control Language
 
 舉 MySQL 為例子：
 
-1. Set Transaction Isolation <Level>
+1. Set Transaction Isolation Level < Level >
   
    Transaction 可設定為 Session 亦或是 Global。
    
