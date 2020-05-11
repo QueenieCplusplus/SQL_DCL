@@ -58,7 +58,7 @@ Data Control Language
    
 5. Savepoint <savepoint> on rollback retain cursors
   
-   使用此命令可在交易功能中定義儲存點。
+   使用此命令可在交易功能中定義儲存點。（作為 Begin、Commit、Rollback 等控制命令的中間點）
    
 6. Select < column From table_name Where expression > For Update
 
