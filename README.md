@@ -23,11 +23,20 @@ Data Control Language
    
    - Read Uncommit
    
+     因為資料不被鎖定，只要在 commit 前都能進行變更，容易讀取到資料異動前的錯誤資料，造成髒讀，
+     但優點是具備快速讀取。
+   
    - Read Commit
+   
+     讀取僅參照到變更的資料。
    
    - Repeatable Read
    
+     保證在交易功能內，無論執行多少次檢索指令，均可獲的相同結果。
+   
    - Serializable
+   
+     在交易功能開始之前，才能參照到 commit 內容。
   
 2. Begin [work]
 
