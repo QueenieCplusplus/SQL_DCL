@@ -21,20 +21,20 @@ Data Control Language
    
    level 參數包含四種隔離等級：
    
-   - Read Uncommit
+   - UR, Read Uncommitted == Uncommited Read (未確定的讀取)
    
      因為資料不被鎖定，只要在 commit 前都能進行變更，容易讀取到資料異動前的錯誤資料，造成髒讀，
      但優點是具備快速讀取。
    
-   - Read Commit
+   - CS, Read Committed == Cursor Stabilty (游標穩定性) 
    
      讀取僅參照到變更的資料。
    
-   - Repeatable Read
+   - RS, Repeatable Read == Read Stability (讀取穩定性)
    
      保證在交易功能內，無論執行多少次檢索指令，均可獲的相同結果。
    
-   - Serializable
+   - RR, Serializable == Repeatable Read (可重複讀取)
    
      在交易功能開始之前，才能參照到 commit 內容。
   
