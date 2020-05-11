@@ -58,7 +58,7 @@ Data Control Language
   
    將資料回復到交易功能中的 A 儲存點。
    
-5. Savepoint <savepoint> on rollback retain cursors
+5. Savepoint < savepoint > on rollback retain cursors
   
    使用此命令可在交易功能中定義儲存點。（作為 Begin、Commit、Rollback 等控制命令的中間點）
    
