@@ -15,7 +15,9 @@ Data Control Language
 
 1. Set Transaction Isolation <Level>
   
-   此參數可設定為 Session 亦或是 Global。
+   Transaction 可設定為 Session 亦或是 Global。
+   
+   參數則可設定為只讀取，即 select，其他操作則錯誤。
   
 2. Begin [work]
 
