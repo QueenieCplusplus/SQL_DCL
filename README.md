@@ -21,13 +21,13 @@ Data Control Language
    
    level 參數包含四種：
    
-   - [x]
+   - 
    
-   - [x]
+   - 
    
-   - [x]
+   - 
    
-   - [x]
+   - 
   
 2. Begin [work]
 
