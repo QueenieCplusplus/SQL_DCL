@@ -19,15 +19,15 @@ Data Control Language
    
    參數則可設定為只讀取，即 select，其他操作則錯誤。
    
-   level 參數包含四種：
+   level 參數包含四種隔離等級：
    
-   - 
+   - Read Uncommit
    
-   - 
+   - Read Commit
    
-   - 
+   - Repeatable Read
    
-   - 
+   - Serializable
   
 2. Begin [work]
 
