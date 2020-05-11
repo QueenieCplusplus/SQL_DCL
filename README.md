@@ -18,6 +18,16 @@ Data Control Language
    Transaction 可設定為 Session 亦或是 Global。
    
    參數則可設定為只讀取，即 select，其他操作則錯誤。
+   
+   level 參數包含四種：
+   
+   - [x]
+   
+   - [x]
+   
+   - [x]
+   
+   - [x]
   
 2. Begin [work]
 
